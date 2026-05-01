@@ -5,7 +5,7 @@
  
 `default_nettype none
  
-module tt_um_example (
+module tt_um_DlynchR_spi_display (
     input  wire [7:0] ui_in,    // Dedicated inputs  -> tx_data[7:0]
     output wire [7:0] uo_out,   // Dedicated outputs -> {dp, seg[6:0]}
     input  wire [7:0] uio_in,   // IOs: Input path
